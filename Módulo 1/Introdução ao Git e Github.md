@@ -25,6 +25,6 @@ Pensando em uma visão do micro para o macro, o Git é dividido em 3 objetos: Bl
 2. **Trees - árvores**
 - Elas armazenam blobs e apontem para tipos de blobs. A tree também contem metadados (\0), guardando o nome do aquivo, e é responsável por montar toda estrutura de localização do arquivo. Elas podem apontar para blobs ou para outras Trees. Cada tree também possui um SHA1 desse metadado, e esse SHA1 é interligado com o SHA1 do blob, ou seja, se mudar o arquivo da blob, consequentemente muda o SHA1 da tree.
 
-![Organização de blob e Tree](<c:\workspace\Bootcamp DIO\Módulo 1\Imagens\blobetree.png>)
+![Organização de blob e Tree](<https://github.com/Gabijesumary/Bootcamp-Avanade-DIO/blob/3dc2581089b75397d91939906167a6098b298fc9/M%C3%B3dulo%201/Imagens/blobetree.png>)
   
   
