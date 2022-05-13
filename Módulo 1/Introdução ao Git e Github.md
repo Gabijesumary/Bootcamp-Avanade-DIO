@@ -27,4 +27,37 @@ Pensando em uma visão do micro para o macro, o Git é dividido em 3 objetos: Bl
 
 ![Organização de blob e Tree](<https://github.com/Gabijesumary/Bootcamp-Avanade-DIO/blob/3dc2581089b75397d91939906167a6098b298fc9/M%C3%B3dulo%201/Imagens/blobetree.png>)
   
+
+3. **Commit**
+O commit é um tipo de objeto "que junta tudo". Ele aponta para trees, para parentes (commits realizados antes deles), para o autor do aquivo, e uma mensagem sobre o commit realizado. Essa mensagem serve para explicar, dar significado para essa aglomerados de aquivos. Ele também leva todas as informações da data e hora da criação dele. O SHA1 desse commit também é interligado com os SHA1 dos blobs, trees e outros commits que estão relacionados a eles. 
   
+![Organização de commits](<https://github.com/Gabijesumary/Bootcamp-Avanade-DIO/blob/3dc2581089b75397d91939906167a6098b298fc9/M%C3%B3dulo%201/Imagens/Commits.png>)  
+
+## Comandos com Git
+
+Todos os comando são dados com a fonte em caixa baixa, aqui estão dispostos em caixa alta apenas para diferenciar e dar destaque do restante do texto.
+
+1. **LS**
+2. **CD**
+    - cd/ +
+    - cd ..
+3. **MKDIR**
+4. **RMDIR**
+5. **GIT INIT**
+6. **Is -a**
+7. **GIT ADD**
+    - git add * - 
+8. **GIT STATUS**
+9. **GIT COMMIT -M "MENSAGEM COMMIT"**
+10. **MV** $ mv arquivo.txt ./pastanova/
+11. **GIT CLONE**
+12. **GIT REMOTE ADD ORIGIN** + URL
+13. **GIT REMOTE -V**
+14. **GIT PUSH ORIGIN MASTER (OU MAIN)**
+15. **GIT PULL ORIGIN MASTER (OU MAIN)**
+
+
+## Atalhos no Git
+1. **Tab**
+2. **Ctrl + L**
+
