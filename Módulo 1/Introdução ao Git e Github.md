@@ -31,7 +31,7 @@ Pensando em uma visão do micro para o macro, o Git é dividido em 3 objetos: Bl
 3. **Commit**
 O commit é um tipo de objeto "que junta tudo". Ele aponta para trees, para parentes (commits realizados antes deles), para o autor do aquivo, e uma mensagem sobre o commit realizado. Essa mensagem serve para explicar, dar significado para essa aglomerados de aquivos. Ele também leva todas as informações da data e hora da criação dele. O SHA1 desse commit também é interligado com os SHA1 dos blobs, trees e outros commits que estão relacionados a eles. 
   
-![Organização de blob e Tree](<https://github.com/Gabijesumary/Bootcamp-Avanade-DIO/blob/3dc2581089b75397d91939906167a6098b298fc9/M%C3%B3dulo%201/Imagens/Commits.png>)
+![Commits](<https://github.com/Gabijesumary/Bootcamp-Avanade-DIO/blob/08778cc1f5a8438cde1e5f522f33f88854a6a706/M%C3%B3dulo%201/Imagens/Commits.png>)
   
 
 ## Comandos com Git
